@@ -31,7 +31,10 @@
         "VIDEO_THUMBNAIL": {
             "description": "If you need to use custom thumbnail for video files, get telegraph url of your thumbnail using @HK_telegraph_BOT and put it here. If not keep No",
             "value": "No"
-        }
+        },
+        "UPDATES_CHANNEL": {
+            "description": "Use this feature for force sub users to join your channel",
+            "Value": ""
     },
     "addons": [],
     "buildpacks": [
