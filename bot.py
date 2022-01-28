@@ -30,20 +30,20 @@ async def start(client, message):
                chat_id=message.chat.id,
                text="""<b>Hello! This is a YouTube Uploader Bot
 
-I can download video or audio from Youtube. Made by @TheTeleRoid 🇮🇳
+I can download video or audio from Youtube. Made by @Moksh_b658 🇮🇳
 
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
                                 [
                                 [
                                         InlineKeyboardButton('🆘 Help', callback_data="help"),
-                                        InlineKeyboardButton('👥 Support', url='https://telegram.me/TeleRoid14')
+                                        InlineKeyboardButton('👥 Support', url='https://telegram.me/greymatters_bots_discussion')
                                     ],[
-                                        InlineKeyboardButton('👮 Owner', url='https://t.me/ThTeleRoid'),
-                                        InlineKeyboardButton('🤖 BotsList', url='https://t.me/joinchat/t1ko_FOJxhFiOThl'),
-                                        InlineKeyboardButton('Channel 📢', url='https://t.me/TeleRoidGroup')
+                                        InlineKeyboardButton('👮 Owner', url='https://t.me/Moksh_b658'),
+                                        InlineKeyboardButton('🤖 BotsList', url='https://t.me/+IezzVbvzlKxlODY1'),
+                                        InlineKeyboardButton('Channel 📢', url='https://t.me/GreyMatter_bots')
                                     ],[
-                                        InlineKeyboardButton('⭕ Source-GitHub ⭕', url='https://github.com/PredatorHackerzZ/TG-YouTube-Uploader'),
+                                        InlineKeyboardButton('⭕ Source-GitHub ⭕', url='https://github.com/GreyMatter658/TG-YouTube-Uploader'),
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -58,7 +58,7 @@ async def help(client, message):
 
 Just send a Youtube url to download it in video or audio format!
 
-~ @TeleRoidGroup</b>""",
+~ @GreyMatter_bots</b>""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
@@ -66,11 +66,11 @@ Just send a Youtube url to download it in video or audio format!
                                         InlineKeyboardButton(
                                             "👥 About ", callback_data="about"),
                                   ],[
-                                        InlineKeyboardButton("👮 Owner", url="https://t.me/TheTeleRoid"),
-                                        InlineKeyboardButton("🤖 Bot List", url="https://t.me/joinchat/t1ko_FOJxhFiOThl"),
-                                        InlineKeyboardButton('Channel 📢', url="https://t.me/TeleRoidGroup")
+                                        InlineKeyboardButton("👮 Owner", url="https://t.me/Moksh_b658"),
+                                        InlineKeyboardButton("🤖 Bot List", url="https://t.me/+IezzVbvzlKxlODY1"),
+                                        InlineKeyboardButton('Channel 📢', url="https://t.me/GreyMatter_bots")
                                     ],[
-                                        InlineKeyboardButton("⭕Source Code -GitHub⭕", url="https://github.com/PredatorHackerzZ/TG-YouTube-Uploader"),
+                                        InlineKeyboardButton("⭕Source Code -GitHub⭕", url="https://github.com/GreyMatter658/TG-YouTube-Uploader"),
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -81,25 +81,25 @@ async def about(client, message):
     if message.chat.type == 'private':   
         await Jebot.send_message(
                chat_id=message.chat.id,
-               text="""<b>About TeleRoid YouTube Bot!</b>
+               text="""<b>About GreyMatter's YouTube Bot!</b>
 
 <b>👨‍💻 Developer:</b> <a href="https://t.me/PredatorHackerzZ_bot">Predator 🇮🇳</a>
 
-<b>💁‍♂️ Support:</b> <a href="https://t.me/TeleRoid14">TeleRoid Support</a>
+<b>💁‍♂️ Support:</b> <a href="https://telegram.me/greymatters_bots_discussion">GreyMatter's Support</a>
 
-<b>😇 Channel :</b> <a href="https://t.me/TeleRoidGroup">TeleRoid Updates </a>
+<b>😇 Channel :</b> <a href="https://t.me/GreyMatter_bots">GreyMatter's Bot </a>
 
 <b>📚 Library:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
 
-<b>🤖 BotList :</b> <a href="https://t.me/TGRobot_List"> Telegram Bots </a>
+<b>🤖 BotList :</b> <a href="https://t.me/+IezzVbvzlKxlODY1"> Telegram Bots </a>
 
-<b>👤 Source : </b> <a href="https://GitHub.com/PredatorHackerzZ/TG-YouTube-Uploader"> Click Here </a>
+<b>👤 Source : </b> <a href="https://github.com/GreyMatter658/TG-YouTube-Uploader"> Click Here </a>
 
-<b>~ @TeleRoidGroup</b>""",
+<b>~ @GreyMatter_bots</b>""",
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "⭕ Join Our Channel ⭕", url="https://t.me/TeleRoidGroup"),
+                                            "⭕ Join Our Channel ⭕", url="https://t.me/GreyMatter_bots"),
                                       
                                     ]]
                             ),        
@@ -328,7 +328,7 @@ async def button(bot, update):
 print(
     """
 Bot Started!
-Join **@TGRobot_List**
+Join **@GreyMatter_bots**
 """
 )
 
