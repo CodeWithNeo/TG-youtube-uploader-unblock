@@ -25,11 +25,11 @@
             "value": ""
         },
         "AUDIO_THUMBNAIL": {
-            "description": "If you need to use custom thumbnail for audio files, get telegraph url of your thumbnail using @TeleRoid_Image2Link_bot and put here. If not keep No",
+            "description": "If you need to use custom thumbnail for audio files, get telegraph url of your thumbnail using @HK_telegraph_BOT and put here. If not keep No",
             "value": "No"
         },
         "VIDEO_THUMBNAIL": {
-            "description": "If you need to use custom thumbnail for video files, get telegraph url of your thumbnail using @TeleRoid_Image2Link_bot and put it here. If not keep No",
+            "description": "If you need to use custom thumbnail for video files, get telegraph url of your thumbnail using @HK_telegraph_BOT and put it here. If not keep No",
             "value": "No"
         }
     },
