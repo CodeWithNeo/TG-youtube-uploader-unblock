@@ -47,7 +47,7 @@
     ],
     "formation": {
         "worker": {
-            "quantity": 1,
+            "quantity": 4,
             "size": "free"
         }
     }
