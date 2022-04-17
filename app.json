@@ -9,8 +9,8 @@
         "CodeWithNeo's Bot"
     ],
     "website": "https://telegram.dog/modstoreiran",
-    "repository": "https://github.com/CodeWithNeo/TG-youtube-uploader-clone",
-    "success_url": "https://telegram.dog/CodeWithNeo",
+    "repository": "https://github.com/CodeWithNeo/TG-youtube-uploader-unblock",
+    "success_url": "https://telegram.dog/utoobeuploaderbot",
     "env": {
         "TG_BOT_TOKEN": {
             "description": "Your Telegram Bot Token from @BotFather",
