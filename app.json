@@ -6,11 +6,11 @@
         "YouTube Downloader",
         "Video Downloader",
         "Telegram Bot",
-        "GreyMatter's Bot"
+        "CodeWithNeo's Bot"
     ],
-    "website": "https://telegram.dog/GreyMatter_bots",
-    "repository": "https://github.com/GreyMatter658/TG-YouTube-Uploader",
-    "success_url": "https://telegram.dog/GreyMatter_bots",
+    "website": "https://telegram.dog/modstoreiran",
+    "repository": "https://github.com/CodeWithNeo/TG-youtube-uploader-clone",
+    "success_url": "https://telegram.dog/CodeWithNeo",
     "env": {
         "TG_BOT_TOKEN": {
             "description": "Your Telegram Bot Token from @BotFather",
