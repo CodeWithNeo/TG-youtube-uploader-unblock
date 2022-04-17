@@ -91,7 +91,7 @@ async def about(client, message):
 
 <b>📚 Library:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
 
-<b>🤖 BotList :</b> <a href="https://t.me/+IezzVbvzlKxlODY1"> Telegram Bots </a>
+<b>🤖 BotList :</b> <a href="https://t.me/modstoreiran"> Telegram Bots </a>
 
 <b>👤 Source : </b> <a href="https://github.com/CodeWithNeo/TG-youtube-uploader-clone"> Click Here </a>
 
